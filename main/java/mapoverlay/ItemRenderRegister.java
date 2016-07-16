@@ -14,6 +14,7 @@ public final class ItemRenderRegister {
 	}
 
 	public static void register(Item item) {
-		ModelLoader.setCustomModelResourceLocation ( item, 0, new ModelResourceLocation("mapoverlay:item/tutorial_item", "inventory") );
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher()
+			.register(item, 0, new ModelResourceLocation("mapoverlay:tutorial_item", "inventory"));
 	}
 }

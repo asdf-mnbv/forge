@@ -1,5 +1,6 @@
 package mapoverlay;
 
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.*;
 
 public class CommonProxy {
@@ -8,8 +9,7 @@ public class CommonProxy {
     	ModItems.createItems();
     }
 
-    public void init(FMLInitializationEvent e) {
-
+    public void init(FMLInitializationEvent e) {  	
     }
 
     public void postInit(FMLPostInitializationEvent e) {

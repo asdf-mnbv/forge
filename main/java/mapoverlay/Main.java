@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.event.*;
 	)
 
 public class Main {
-	@Mod.Instance (value = "Map Overlay")
+	@Mod.Instance (value = "mapoverlay")
 	public static Main instance;
 	
 	@SidedProxy(clientSide="mapoverlay.ClientProxy", serverSide="mapoverlay.ServerProxy")
