@@ -1,0 +1,25 @@
+[
+	{
+		"modid":		"mapoverlay",
+		"name":			"MrrGingerNinja's Forge Tutorials",
+		"description":	"The complete project for MrrGingerNinja's Minecraft Forum tutorials",
+		"version":		"Tutorial #3",
+		"mcversion":	"1.7.10",
+		"url": 			"http://www.minecraftforum.net/members/MrrGingerNinja",
+		"updateUrl": 	"",
+		"authorList": 	
+			[
+						"MrrGingerNinja"
+			],
+		"credits": 		"Everyone who uses these tutorials and continues to support their development",
+		"logoFile": 	"MGNForge.png",
+		"screenshots":
+			[
+			
+			],
+		"dependencies": 
+			[
+			
+			]
+	}
+]
